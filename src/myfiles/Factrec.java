@@ -2,12 +2,12 @@ package myfiles;
 public class Factrec {
 
 	public static int factorial (int n)
-	{int b;
+	{
 	if (n==0)
 		return 1;
 	else
-			b= n*factorial(n-1);
-			return b;
+			return (n*factorial(n-1));
+			
 			
 	}
 	public static void main (String[] argss)
