@@ -10,7 +10,7 @@ public class Factrec {
 			
 			
 	}
-	public static void main (String[] argss)
+	public static void main (String[] args)
 	{
 		int fact,number=5;
 		fact=factorial(number);
